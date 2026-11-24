@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Expense Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header" id="header">
+            <h1 id="heading">Monthly Expense Dashboard</h1>
+            <h2 id="personName"></h2>
+            <p id="month"></p>
+        </div>
+
+    
+        <div class="income-section">
+
+    <h2>Income Details</h2>
+
+    <p id="income"></p>
+
+    <p id="totalExpense"></p>
+
+    <div class="balance-section">
+        <h3>Remaining Balance</h3>
+        <p id="balance"></p>
+    </div>
+
+</div>
+        
+        <div class="expense-section">
+
+            <h2>Expense Details</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Expense Category</th>
+                        <th>Amount (₹)</th>
+                    </tr>
+                </thead>
+
+                <tbody id="expenseTable">
+                    
+                </tbody>
+            </table>
+
+        </div>
+
+    
+        <div class="summary-section">
+
+            <h2>Expense Summary</h2>
+
+            <p id="highest"></p>
+            <p id="lowest"></p>
+            <p id="categoryCount"></p>
+            <p id="percentage"></p>
+            <p id="average"></p>
+            <p id="status"></p>
+
+        </div>
+
+
+        <div class="status-section">
+            <h2>Financial Status</h2>
+            <p id="statusDisplay"></p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Personal Expense Dashboard</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

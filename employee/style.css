@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+    background-color: rgb(179, 243, 222);
+    margin: 0;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    color: brown;
+}
+.profile {
+    color: blue;
+    text-align: center;
+
+}
+.detail{
+    padding: 20px;
+    border-radius: 10px;
+    color: blueviolet;
+}
+.info{
+    color: black;
+}
+.information{
+    padding: 20px;
+}
+footer{
+    text-align: center;
+    margin-top: 30px;
+}

@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #db9e9e;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.profile {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px auto;
+    width: 400px;
+    border-radius: 8px;
+}
+
+.details {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px auto;
+    width: 400px;
+}
+
+.info {
+    color: #bf5c5c;
+    margin: 10px 0;
+}
+
+.salary {
+    color: green;
+    font-weight: bold;
+}
+
+#contactDisplay {
+    background-color: #e8e8e8;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}

@@ -1,0 +1,64 @@
+body {
+    font-family: Arial;
+    background-color: #f2f5f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.header {
+    background-color: #25266e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.income-section,
+.expense-section,
+.summary-section,
+.status-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #1b9ac8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #1d9fcf;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+}
+.balance-section {
+    padding: 15px;
+    background-color: #e8f5e9;
+    margin-top: 15px;
+    border-radius: 8px;
+}

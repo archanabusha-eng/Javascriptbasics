@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h2>Student Registration Form</h2>
+
+        <form id="registrationForm">
+
+            <label>Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <span id="nameError"></span>
+
+            <label>Email:</label>
+            <input type="text" id="email" placeholder="Enter your email">
+            <span id="emailError"></span>
+
+            <label>Mobile Number:</label>
+            <input type="text" id="mobile" placeholder="Enter 10 digit mobile number">
+            <span id="mobileError"></span>
+
+            <label>Gender:</label>
+            <select id="gender">
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+            <span id="genderError"></span>
+
+            <label>Course Preference:</label>
+            <select id="course">
+                <option value="">Select Course</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="Web Development">Web Development</option>
+            </select>
+            <span id="courseError"></span>
+            <button type="submit" id="submit">Register</button>
+            <p id="successMessage"></p>
+        </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
